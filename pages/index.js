@@ -60,21 +60,38 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 mt-10 text-gray-600 dark:text-gray-300">
-            <a href="https://twitter.com/DarsshanPal" target="_blank">
+            <a
+              href="https://twitter.com/DarsshanPal"
+              target="_blank"
+              rel="noreferrer"
+              alt="Twitter"
+            >
               <AiFillTwitterCircle className="scale-100 hover:scale-105 ease-in duration-200" />
             </a>
             <a
               href="linkedin.com/in/darsshan-palaram-776783261"
               target="_blank"
+              rel="noreferrer"
+              alt="Linkedin"
             >
               <AiFillLinkedin className="scale-100 hover:scale-105 ease-in duration-200" />
             </a>
-            <a href="https://github.com/DarthShan" target="_blank">
+            <a
+              href="https://github.com/DarthShan"
+              target="_blank"
+              rel="noreferrer"
+              alt="GitHub"
+            >
               <AiFillGithub className="scale-100 hover:scale-105 ease-in duration-200" />
             </a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mb-20 overflow-hidden md:h-96 md:w-96">
-            <Image src={profile2} layout="fill" objectFit="cover" />
+            <Image
+              src={profile2}
+              layout="fill"
+              objectFit="cover"
+              alt="Profile_picture"
+            />
           </div>
         </section>
         <section>
@@ -100,7 +117,7 @@ export default function Home() {
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <div className="flex justify-center">
-                <Image src={frontend} width={100} height={100} />
+                <Image src={frontend} width={100} height={100} alt="" />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
                 Front-End Development
@@ -125,7 +142,7 @@ export default function Home() {
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <div className="flex justify-center">
-                <Image src={backend} width={100} height={100} />
+                <Image src={backend} width={100} height={100} alt="" />
               </div>
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
                 Back-End Development
@@ -154,13 +171,18 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row">
             <div className="basis-1/3 flex-1">
-              <a href="https://github.com/AngelikaM-T/NipToLoo" target="_blank">
+              <a
+                href="https://github.com/AngelikaM-T/NipToLoo"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Image
                   src={niptooloo}
                   className="rounded-lg object-cover scale-100 hover:scale-105 ease-in duration-200"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
+                  alt="The NipToLoo app"
                 />
               </a>
             </div>
@@ -168,6 +190,7 @@ export default function Home() {
               <a
                 href="https://github.com/DarthShan/NC-Games-Front-End"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Image
                   src={reviewzone}
@@ -175,6 +198,7 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
+                  alt="The ReviewZone website"
                 />
               </a>
             </div>
