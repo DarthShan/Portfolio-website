@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 import Image from "next/image";
 import profile2 from "../public/profile2.jpg";
-import frontend from "../public/frontend2.png";
+import frontend from "../public/frontend.png";
 import backend from "../public/backend.png";
 import reviewzone from "../public/ReviewZone.PNG";
 import niptooloo from "../public/niptoloofinal.jpg";
