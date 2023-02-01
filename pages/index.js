@@ -98,18 +98,18 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
-              I'm a{" "}
-              <span className="text-teal-500">junior software developer</span>{" "}
+              I&apos;m a
+              <span className="text-teal-500"> junior software developer </span>
               with a desire to make creative solutions using new cutting-edge
               technology. I enjoy turning complex problems into simple,
               efficient code. I have a strong foundation in{" "}
               <span className="text-teal-500">full-stack development</span> and
-              a commitment to writing maintainable, scalable code. I'm always
-              eager to learn and grow as a developer.
+              a commitment to writing maintainable, scalable code. I&apos;m
+              always eager to learn and grow as a developer.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
               A couple other things about me; in my free time I enjoy drumming
-              to my favourite songs. I'm also a big fan of video games,
+              to my favourite songs. I&apos;m also a big fan of video games,
               especially story-driven games, finally, I love staying active by
               going to the gym.
             </p>
@@ -128,7 +128,7 @@ export default function Home() {
                 to create user-friendly interfaces for web and mobile apps.
               </p>
               <h4 className="py-4 text-teal-600">
-                Some front-end tools I'm familiar with
+                Some front-end tools I&apos;m familiar with
               </h4>
               <p className="text-gray-800 dark:text-gray-300 py-1">
                 React/React-Native
@@ -153,7 +153,7 @@ export default function Home() {
                 a seamless and secure user experience.
               </p>
               <h4 className="py-4 text-teal-600">
-                Some back-end tools I'm familiar with
+                Some back-end tools I&apos;m familiar with
               </h4>
               <p className="text-gray-800 dark:text-gray-300 py-1">Express</p>
               <p className="text-gray-800 dark:text-gray-300 py-1">Nodejs</p>
