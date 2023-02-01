@@ -69,7 +69,7 @@ export default function Home() {
               <AiFillTwitterCircle className="scale-100 hover:scale-105 ease-in duration-200" />
             </a>
             <a
-              href="linkedin.com/in/darsshan-palaram-776783261"
+              href="https://linkedin.com/in/darsshan-palaram-776783261"
               target="_blank"
               rel="noreferrer"
               alt="Linkedin"
