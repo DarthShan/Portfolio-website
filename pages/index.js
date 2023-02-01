@@ -9,8 +9,8 @@ import Image from "next/image";
 import profile2 from "../public/profile2.jpg";
 import frontend from "../public/frontend.png";
 import backend from "../public/backend.png";
-import reviewzone from "../public/ReviewZone.PNG";
-import niptooloo from "../public/niptoloofinal.jpg";
+import niptooloofinal from "../public/niptoloofinal.jpg";
+import reviewzone from "../public/reviewzone.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -172,7 +172,7 @@ export default function Home() {
                 rel="noreferrer"
               >
                 <Image
-                  src={niptooloo}
+                  src={niptooloofinal}
                   className="rounded-lg object-cover scale-100 hover:scale-105 ease-in duration-200"
                   width={"100%"}
                   height={"100%"}
