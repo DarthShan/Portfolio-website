@@ -86,12 +86,7 @@ export default function Home() {
             </a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 mb-20 overflow-hidden md:h-96 md:w-96">
-            <Image
-              src={profile2}
-              layout="fill"
-              objectFit="cover"
-              alt="Profile_picture"
-            />
+            <Image src={profile2} alt="Profile_picture" priority={true} />
           </div>
         </section>
         <section>
@@ -181,7 +176,6 @@ export default function Home() {
                   className="rounded-lg object-cover scale-100 hover:scale-105 ease-in duration-200"
                   width={"100%"}
                   height={"100%"}
-                  layout="responsive"
                   alt="The NipToLoo app"
                 />
               </a>
@@ -197,7 +191,6 @@ export default function Home() {
                   className="rounded-lg object-cover scale-100 hover:scale-105 ease-in duration-200"
                   width={"100%"}
                   height={"100%"}
-                  layout="responsive"
                   alt="The ReviewZone website"
                 />
               </a>
